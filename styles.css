@@ -1,0 +1,145 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Header */
+.site-header {
+  background: #e0f7fa;
+  padding: 20px;
+  border-bottom: 4px solid #0097a7;
+  text-align: center;
+}
+
+.site-header h1 {
+  color: #006064;
+  margin-bottom: 10px;
+}
+
+.featured-img {
+  margin-top: 15px;
+  border: 3px solid #0097a7;
+  padding: 5px;
+  background-color: #fff;
+}
+
+/* Sections */
+section {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+/* Headings */
+h2 {
+  color: #00796b;
+}
+
+h3 {
+  color: #004d40;
+}
+
+/* Lists */
+ol, ul {
+  margin-left: 25px;
+}
+
+/* Figure */
+figure {
+  text-align: center;
+  margin-top: 15px;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table caption {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #004d40;
+}
+
+table, th, td {
+  border: 1px solid #666;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #b2dfdb;
+}
+
+/* Form */
+form {
+  margin-top: 15px;
+}
+
+fieldset {
+  border: 2px solid #00796b;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+legend {
+  font-weight: bold;
+  color: #00796b;
+}
+
+input, textarea, button {
+  margin-top: 5px;
+  padding: 8px;
+  width: 95%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Radio and checkbox fix */
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+/* Button */
+button {
+  background-color: #00796b;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  width: auto;
+}
+
+button:hover {
+  background-color: #004d40;
+}
+
+/* Footer */
+footer {
+  background-color: #006064;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
